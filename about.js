@@ -14,13 +14,19 @@ canvas.width = 350;
 canvas.height = 350;
 cx.strokeStyle = "#fff";
 
-/* function textCanvas() {
-  cx.font = "2em Quicksand";
-  cx.fillText("Hello this is my About me text blah blah", 20, 40);
+let myText = "Draw here";
+function textCanvas() {
+  cx.fillStyle = "#dedede";
+  cx.font = "1.5em Quicksand";
+  cx.fillText(
+    myText,
+    canvas.width - cx.measureText(myText).width,
+    canvas.height - 2
+  );
   cx.globalCompositeOperation = "hue";
 }
-textCanvas(); */
-
+textCanvas();
+console.log();
 function canvasDraw(event) {
   if (!isDrawing) return;
   console.log(event);
