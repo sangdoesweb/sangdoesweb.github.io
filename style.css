@@ -131,7 +131,6 @@ li:focus span {
 
 .cta p {
   padding: 0.75em 2.2em;
-  border: 1px dashed var(--clr-bg);
 }
 
 .cta:hover p {
@@ -328,6 +327,10 @@ h2:focus {
   background-image: url(images/chirp.png);
   /*   animation: imageLinearScan 20s linear infinite alternate;
  */
+}
+
+.sainsburys-clone {
+  background-image: url(images/sainsburys-clone.png);
 }
 
 .piano {
