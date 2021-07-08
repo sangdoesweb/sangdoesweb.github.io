@@ -282,6 +282,15 @@ h2:focus {
   justify-content: center;
 }
 
+.project-container code a {
+  text-decoration: underline;
+}
+
+.project-container code a:hover {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
 .tools {
   color: var(--clr-text-light);
   margin-bottom: 0.5em;
