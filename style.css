@@ -101,7 +101,7 @@ li:focus span {
 
 .hero {
   margin: 0 auto;
-  margin-top: 4em;
+  margin-top: 2.75em;
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
