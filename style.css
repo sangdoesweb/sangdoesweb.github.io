@@ -319,9 +319,12 @@ h3 {
 .text-container {
   margin-right: 5em;
 }
-.text-container--alternate {
+
+.project-container:nth-child(2n) .text-container {
   margin-left: 5em;
+  order: 5;
 }
+
 .summary {
   line-height: 1.33em;
   max-width: 38ch;
@@ -374,6 +377,10 @@ h3 {
   background-image: url(images/piano.png);
   /*   animation: imageLinearScan 20s linear infinite alternate-reverse;
  */
+}
+
+.company {
+  background-image: url(images/company.png);
 }
 
 .form-validation {
@@ -460,9 +467,8 @@ h3 {
     margin-right: 0;
     margin-bottom: 3em;
   }
-  .text-container--alternate {
+  .project-container:nth-child(2n) .text-container {
     margin-left: 0;
-    margin-bottom: 3em;
     order: -1;
   }
 }
