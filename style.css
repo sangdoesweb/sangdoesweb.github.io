@@ -331,6 +331,11 @@ h3 {
   font-size: 1.125rem;
 }
 
+.summary a {
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
 .youtube-summary {
   font-size: 1.05rem;
 }
